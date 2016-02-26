@@ -30,13 +30,14 @@ body{
 .header{
 	width:100%;
 	height: 100%;
-	background-image: url(../img/heder.png);
+	/*background-image: url(../img/heder.png);*/
+	background: #074D8A;
 	margin: 0 auto;
 }
 .mo{
 	display: inline-block;
 	float: right;
-	color: #B5BFA7;
+	color: #FEFEFE;
 	font-family: 'Helvetica Heue Cyrlight';
 	font-size: 14px;
 	text-decoration: none;
@@ -47,6 +48,7 @@ body{
 	width: 200px;
 	height: 31px;
 	padding-right:10px;
+	color: #60B5ED;
 	}
 .mo:hover{
 	color: #FEFEFE;
@@ -65,8 +67,10 @@ body{
 	margin-top: 0px;
 	padding-top: 11px;
 	padding-bottom: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
 	float: right;
-	color: #B5BFA7;
+	color: #60B5ED;
 	font-family: 'Helvetica Heue Cyrlight';
 	font-size: 14px;
 }
@@ -79,13 +83,14 @@ body{
 	margin-top: 0px;
 	padding-top: 11px;
 	padding-bottom: 10px;
+	padding-left: 15px;
 }
 .ola a:hover{
 	text-decoration: underline;
 	color:#FEFEFE;
 	}
 	.ola a{
-	color: #B5BFA7;
+	color: #60B5ED;
 	padding: 0 5px;
 	text-decoration: none;
 	}
@@ -105,18 +110,18 @@ body{
 .menu li a{
 	display: block;
 	text-decoration:none;
-	color: #B5BFA7;
+	color: #60B5ED;
 	line-height: 36px;
 	padding-top: 6px;
-	padding-right:40px;
-	padding-left: 40px;
+	padding-right:15px;
+	padding-left: 15px;
 }
 .menu li a:hover{
 	color:#FEFEFE;
 	background: linear-gradient(to top, #2E7AC4, #4EABDA);
 	line-height: 37px;
-	padding-right:40px;
-	padding-left: 40px;
+	padding-right:15px;
+	padding-left: 15px;
 }
 .top-block{
 	width: 560px;
